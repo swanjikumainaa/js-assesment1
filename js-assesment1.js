@@ -12,7 +12,7 @@ function reverseString() {
 // let num = [2,8,0,23,5,45,76]
 // Target = 23
 
-function binarySearch(num, target) {
+function binarySearch(arr, target) {
     let left = 0;
     let right = arr.length - 1;
     while (left <= right) {
@@ -28,9 +28,9 @@ function binarySearch(num, target) {
     return null;
   }
   
-  let num = [2, 8, 0, 23, 5, 45, 76];
+  let arr = [2, 8, 0, 23, 5, 45, 76];
   let target = 23;
-  let result = binarySearch(num, target);
+  let result = binarySearch(arr, target);
   console.log(result);
   
   
